@@ -1,0 +1,12 @@
+# BWD-portfolio-melvinseptember
+
+Project Voorstel
+
+project: LemonBvba
+Waarom: Ik heb deze onderneming gekozen omdat ik voor dit bedrijf werk. Onlangs is het magazijn afgebrand doordat er kortsluiting 
+was bij de schrijnwerkerij die naast het magazijn gelegen was. Door deze gebeurtenis voel ik me geroepen om voor de eigenaar een website
+te bouwen. Door dit project kan ik een steentje bijdragen om de onderneming terug van start te laten gaan.
+
+Wat? Het is een bedrijf die evenementen regelt zowel zelf geregelde als aangevraagde feestjes en evenementen. Hun opslag bestaat  
+vooral uit allerlij verschillende Lichten en decoratie, maar ook muziek installaties. Hun regio is heel België. Ook hebben
+ze zelf een feestzaal in Sint-Amands genaamd EventRoom waar ze meestal trouws organiseren.
