@@ -1,0 +1,77 @@
+/* Melvin September*/
+body{
+    font-size: 14px;
+    font-family: Arial;
+}
+blockquote{
+    font-style: italic;
+}
+small{
+    display: block;
+    text-align: center;
+}
+ol{
+    list-style-type: lower-alpha;
+}
+figcaption{
+    font-style: italic;
+    text-align: right;
+}
+dd a {
+    text-decoration: none;
+}
+#langmenu{
+    font-size: 10px;
+}
+div.comment{
+    background-color: darkturquoise;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+a:active{
+    text-decoration: underline;
+}
+a:focus{
+    outline: 1px dotted #f09;
+}
+#profile-photo{
+    filter: grayscale(50%)
+}
+ ::selection{
+    background-color: lightgreen;
+    color: purple;
+}
+p.intro::first-letter{
+    font-size: 20px;
+    color: deeppink;
+}
+ul.weetjes{
+    list-style: none;
+}
+li.weetjes::before{
+    content:"♣  ";
+    color: red;
+    font-size: 20px;
+}
+main a {
+    color: orangered;
+}
+main a:hover{
+    color: orange;
+}
+footer{
+    background-color: lightslategray;
+    padding: 5px;
+}
+footer a{
+    color: lightskyblue;
+}
+p + h3{
+    color: #999;
+}
+/* bezig aan oefening 25*/
+
+figure{
+    margin-left: 0px;
+}
