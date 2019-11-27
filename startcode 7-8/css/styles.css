@@ -1,0 +1,103 @@
+/**
+ * General stylesheet for Mutw
+ *
+ * @author Rogier van der Linde <rogier.vanderlinde@kahosl.be>
+ *
+ */
+
+/* =============================================
+ * GENERAL
+ =============================================== */
+	
+body {
+	color: #222;
+	font-size: 13px;
+	line-height: 2.4; 	/*Regelhoogte*/
+	font-family: 'Open Sans', sans-serif;
+}
+h2 {
+	font-family: 'Exo', sans-serif;
+	font-style: normal;
+}
+h3 {
+	font-family: 'Exo', sans-serif;
+	font-style: normal;
+
+}
+
+
+
+/* =============================================
+ * LAYOUT
+ =============================================== */
+
+
+
+
+
+/* =============================================
+ * HEADER
+ =============================================== */
+header {
+	background-color: #485865;
+}
+#logo {
+	background-image: url(../img/mutwlogo.png);
+	background-size: 100% 100%; /* stretch background image */
+	display: block; /* only block level elements can have width / height */
+	height: 16.1rem; /* stretch link to desired height */
+	overflow: hidden;  /* hide text outside */
+	text-indent: 100%; /* push text outside */
+	white-space: nowrap; /* single line of text */
+	width: 21.4rem; /* stretch link to desired width */
+
+}
+header li{
+	display: inline-block;
+	padding: 30px 6px;
+}
+header li a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+}
+header li a.active{
+	color: orange;
+}
+  
+
+
+/* =============================================
+ * DOORMAT
+ =============================================== */
+div#doormat{
+	background-color:  #62717d;
+	padding: 3rem;
+	margin: 0 auto;
+	text-align: center;
+
+}
+#doormat_menu li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 0px 6px;
+
+}
+#doormat_menu li a:hover{
+	text-decoration: none;
+}
+#doormat_menu li a{
+	color: #fff;
+}
+/* =============================================
+ * FOOTER
+ =============================================== */
+ footer{
+	background-color: #485865;
+	text-align: center;
+}
+footer p{
+	color: #fff;
+	letter-spacing: 2px;
+}

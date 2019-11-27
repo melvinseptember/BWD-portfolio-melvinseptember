@@ -1,0 +1,152 @@
+/**
+ * Index stylesheet for Mutw
+ *
+ * @author      Rogier van der Linde <rogier.vanderlinde@kahosl.be>
+ *
+ */
+
+/* =============================================
+ * LAYOUT
+ =============================================== */
+
+main .wrapper {
+	display: flex;
+	flex-flow: row nowrap;	
+}
+
+main .column {
+	width: 30%;
+}
+
+main .column + .column {
+	margin-left: 5%;
+}
+
+/* =============================================
+ * BANNER
+ =============================================== */
+ #banner{
+	background-color:#62717d;
+	padding: 100px 0rem;
+
+	background-image: url(../img/mutwhero.png);
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 400px;
+	width: 100%
+
+
+}
+#banner h2{
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: lighter;
+	vertical-align: bottom;
+	
+
+}
+.wrapper {
+	max-width: 96rem; 
+	margin: 0 auto; /* center horizontally */
+}
+
+header .wrapper {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+/* =============================================
+ * MAIN
+ =============================================== */
+
+
+ .column h3{
+	text-align: center;
+	font-size: 20px;
+	color: darkcyan;
+	font-weight: lighter;
+	border-bottom-style: solid;
+	border-color: orange;
+	border-width: 1.5px;
+}
+.column img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	padding: 15px 0px;
+}
+.lnk_more{
+	color:  orange;
+	text-decoration: none;
+	border-radius: 5px;
+	border-style: solid;
+	float: right;
+	text-transform: uppercase;
+	padding: 5px;
+}
+.lnk_more::after{
+content: " »"
+
+}
+.lnk_more a:hover{
+	color: white;
+	background-color: orange;
+	transition-delay: 0.2s;
+}
+.facebook{	
+	background-image: url(../img/icon_facebook.png);
+	background-size: 100% 100%; /* stretch background image */
+	display: block; /* only block level elements can have width / height */
+	height: 16.1rem; /* stretch link to desired height */
+	overflow: hidden;  /* hide text outside */
+	text-indent: 100%; /* push text outside */
+	white-space: nowrap; /* single line of text */
+	width: 21.4rem; /* stretch link to desired width */
+}
+.twitter{
+	background-image: url(../img/icon_twitter.png);
+	background-size: 100% 100%; /* stretch background image */
+	display: block; /* only block level elements can have width / height */
+	height: 16.1rem; /* stretch link to desired height */
+	overflow: hidden;  /* hide text outside */
+	text-indent: 100%; /* push text outside */
+	white-space: nowrap; /* single line of text */
+	width: 21.4rem; /* stretch link to desired width */
+}
+.pinterest{
+	background-image: url(../img/icon_pinterest.png);
+	background-size: 100% 100%; /* stretch background image */
+	display: block; /* only block level elements can have width / height */
+	height: 16.1rem; /* stretch link to desired height */
+	overflow: hidden;  /* hide text outside */
+	text-indent: 100%; /* push text outside */
+	white-space: nowrap; /* single line of text */
+	width: 21.4rem; /* stretch link to desired width */
+}
+#socialmedia{
+	list-style-type: none;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	padding: 15px 0px;
+		
+
+}
+#socialmedia a{
+	border: none;
+	
+
+}
+.column ul + p{
+	text-align: center;
+}
+.column a{
+	color: orange;
+}
