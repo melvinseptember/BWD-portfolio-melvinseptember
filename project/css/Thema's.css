@@ -1,0 +1,136 @@
+header{
+    background-image: url(../images/header_thema.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 10rem;
+    max-width: 152em;
+    min-width: 32rem;
+}
+header a{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    transition: 0.3s;
+}
+header a::before{
+    content: "| ";
+    color: #fff;
+}
+header a:hover{
+    color: #e811b0;
+}
+header div{
+    display: flex;
+    flex-flow: row  wrap;
+    justify-content: center;
+}
+header h2{
+    color: #fff;
+    font-size: 3rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+#gegevens{
+    display: flex;
+    flex-flow: row nowrap;
+}
+#logo{
+    max-width: 15rem;
+    min-width: 10rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.logo::before{
+    content: "";
+}   
+/*MAIN*/
+#uitleg{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 3rem 6rem;
+}
+main p{
+    font-size: 1rem;
+    text-align: center;
+}
+.tekst{
+    padding:  2rem;
+    width: 100%;
+}
+#foto{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 2rem;
+}
+.img{
+    width: 50%;
+    padding-bottom: 1.5rem;
+    background-color: #000;
+}
+figure img{
+    width: 100%;
+}
+figure figcaption{
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+@media (min-width: 32em){
+    .img{
+        width: 33.33%;
+        padding-bottom: 1.5rem;
+        background-color: #000;
+    }
+}
+@media (min-width: 40.4375em){
+    header div{
+        display: flex;
+        flex-flow: row  nowrap;
+        justify-content: space-between
+    }
+    header nav{
+        margin-right: 2rem;
+        padding-top: 2rem;
+    }
+    header a{
+        color: #fff;
+        font-size: 2rem;
+        margin-left: 1rem;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+    #logo{
+        max-width: 15rem;
+        min-width: 10rem;
+        padding: 2rem;
+    }
+}
+@media (min-width: 44em){
+    #uitleg{
+        display: flex;
+        flex-flow: row nowrap;
+        padding: 3rem 6rem;
+    }
+    .tekst{
+        padding:  2rem;
+        width: 33.33%;
+    }
+}
+@media (min-width: 49em){
+    .img{
+        width: 25%;
+        padding-bottom: 1.5rem;
+        background-color: #000;
+    }
+}
+@media (min-width: 60em){
+    main p{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}

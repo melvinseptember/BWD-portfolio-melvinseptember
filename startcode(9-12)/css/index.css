@@ -1,0 +1,223 @@
+main .wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+main .main_left {
+    width: 55%
+}
+
+main .main_right {
+    width: 35%
+}
+
+main .main_left + .main_right {
+    margin-left: 10%
+}
+
+/*
+BANNER
+*/
+
+#banner {
+    background-image: url(../img/seoul_skyline.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding-bottom: 15rem;
+}
+#banner a {
+    border: 2px solid;
+    color: #FFF;
+    float: left;
+    text-decoration: none;
+    padding: 1rem;
+    margin-top: 5rem;
+}
+#banner h2{
+    color: #FFF;
+    margin-top: 5rem;
+    font-size: 4rem;
+    font-weight: lighter;
+}
+#banner p{
+    color: #FFF;
+    padding-top: 2rem;
+}
+body {
+    color: #444;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+h2, h3 {
+    font-family: 'Source Serif Pro', sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 100rem;
+}
+
+#topbar .wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+header .wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+footer .wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*
+TOPBAR
+*/
+
+#topbar {
+    background-color: #eee;
+    padding: 1rem;
+}
+
+#topbar a {
+    color: #444;
+    text-decoration: none;
+}
+
+#topbar li {
+    display: inline-block;
+    list-style: none;
+}
+
+#topbar li + li {
+    margin-left: 2rem;
+}
+
+#topbar form label {
+    display: none;
+}
+
+/*
+HEADER
+*/
+
+header {
+    padding: 3rem 0;
+}
+
+header h1 a {
+    color: #444;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    padding-top: 4rem;
+}
+
+nav a {
+    color: #444;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0.3rem;
+}
+
+nav a:hover {
+    color: #c0627b;
+    text-decoration: underline;
+}
+nav li {
+    margin-left: 1rem
+}
+
+nav .active {
+    color: #c0627b;
+}
+
+/*
+MAIN
+*/
+article{
+    background-color: #eee;
+    margin-bottom: 5rem;
+    padding-bottom: 7rem;
+}
+article div{
+    margin: 1.2rem;
+}
+article div a{
+    color: #000;
+    border: 2px solid #000;
+    text-decoration: none;
+    float: right;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+article h4{
+    text-align: center;
+    padding: 2rem 0rem;
+    
+}
+article ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    list-style-type: square;
+}
+article li{
+    margin-left: 3rem;
+}
+article li:first-child{
+    list-style-type: none;
+}
+article li a{
+    color: #000;
+    text-decoration:underline ;
+}
+article p::first-letter{
+    font-size: 3rem;
+}
+.main_left h3{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.main_left h3::after{
+    content: "";
+    display: block;
+    border: 1px solid #c0627b;
+    width: 4rem;
+    margin-top: 1rem;
+}
+
+/*
+FOOTER
+*/
+
+footer .wrapper {
+    border-top: solid;
+    border-color: #444;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+

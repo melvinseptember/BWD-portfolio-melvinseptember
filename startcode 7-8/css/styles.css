@@ -14,16 +14,19 @@ body {
 	font-size: 13px;
 	line-height: 2.4; 	/*Regelhoogte*/
 	font-family: 'Open Sans', sans-serif;
+	max-width: 96rem;
+	margin: auto;
 }
 h2 {
 	font-family: 'Exo', sans-serif;
-	font-style: normal;
+	font-weight: normal;
 }
 h3 {
 	font-family: 'Exo', sans-serif;
-	font-style: normal;
+	font-weight: normal;
 
 }
+
 
 
 
@@ -45,16 +48,18 @@ header {
 	background-image: url(../img/mutwlogo.png);
 	background-size: 100% 100%; /* stretch background image */
 	display: block; /* only block level elements can have width / height */
-	height: 16.1rem; /* stretch link to desired height */
+	height: 18.4 rem; /* stretch link to desired height */
 	overflow: hidden;  /* hide text outside */
 	text-indent: 100%; /* push text outside */
 	white-space: nowrap; /* single line of text */
 	width: 21.4rem; /* stretch link to desired width */
 
 }
+nav{
+	margin-top: 2rem;
+}
 header li{
 	display: inline-block;
-	padding: 30px 6px;
 }
 header li a{
 	color: #fff;
@@ -84,8 +89,9 @@ div#doormat{
 	padding: 0px 6px;
 
 }
-#doormat_menu li a:hover{
+#doormat_menu a:hover{
 	text-decoration: none;
+	color: #fff;
 }
 #doormat_menu li a{
 	color: #fff;

@@ -3,66 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <script src="https://kit.fontawesome.com/34ccc2f274.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/start.css">
+    <link rel="stylesheet" href="css/Home.css">
+    <link rel="stylesheet" href="css/footer.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home || Double MP</title>
 </head>
 <body>
     <header>
-        <a href="Home.html"><img src="images/logo_doublemp.png" alt=""></a>
-        <nav>
-            <a href="Home.html">Home</a>
-            <a href="Thema's.html">Thema's</a>
-            <a href="OverOns.html">Over ons</a>
-            <a href="Contact.html">Contact</a>
-            <a href="Nieuws.html">Nieuws</a>
-        </nav>
-        <a href="https://www.facebook.com/doublempevents/"><i class="fab fa-facebook-f"></i></a>
+        <div>
+            <a href="Home.html" class="logo" ><img src="images/logo_doublemp.png" alt="" id="logo"></a>
+            <nav>
+                <a href="Home.html">Home</a>
+                <a href="Thema's.html">Thema's</a>
+                <a href="OverOns.html">Over ons</a>
+                <a href="Contact.html">Contact</a>
+                <a href="Nieuws.html">Nieuws</a>
+                <a href="https://www.facebook.com/doublempevents/" id="facebook"><i class="fab fa-facebook-f"></i></a>
+            </nav>
+        </div>
         <section>
                 <h2>De grootste <em>all-in</em> event provider van België</h2>
-                <img src="images/header_home.jpg" alt="">
         </section>
     </header>
     <main>
-        <section>
-            <h4>VOORDELEN VOOR U</h4>
-            <ul>
-                <li><i class="fas fa-check"></i> Unieke decoratie</li>
-                <li><i class="fas fa-check"></i> Een vlotte afhandeling</li>
-                <li><i class="fas fa-check"></i> Geen overlappende kosten</li>
-                <li><i class="fas fa-check"></i> Eén aanspreekpunt</li>
-                <li><i class="fas fa-check"></i> Gegarandeerd onvergetelijke momenten</li>
-                <li><i class="fas fa-check"></i> Offertes zijn steeds op maat</li>
-            </ul>
-            <img src="images/voorbeeld_voordeel.jpg" alt="">
+        <section class="Info">
+            <div>
+                <h4>VOORDELEN VOOR U</h4>
+                <ul>
+                    <li><i class="fas fa-check"></i> Unieke decoratie</li>
+                    <li><i class="fas fa-check"></i> Een vlotte afhandeling</li>
+                    <li><i class="fas fa-check"></i> Geen overlappende kosten</li>
+                    <li><i class="fas fa-check"></i> Eén aanspreekpunt</li>
+                    <li><i class="fas fa-check"></i> Gegarandeerd onvergetelijke momenten</li>
+                    <li><i class="fas fa-check"></i> Offertes zijn steeds op maat</li>
+                </ul>
+            </div>
+            <img src="images/voorbeeld_voordeel.jpg" alt="" class="voorbeeld" id="voorbeeld">
         </section>
-        <section>
-            <img src="images/voorbeeld_moment.jpg" alt="">
-            <h4>MOMENTEN</h4>
-            <ul>
-                <li>Een live festival met steengoeie optredens</li>
-                <li>Een spetterende fuif</li>
-                <li>Een aansprekende productlancering</li>
-                <li>Een achttiende verjaardag om nooit meer te vergeten</li>
-                <li>De opening van uw eerste (of honderdste) winkel</li>
-                <li>Een spetterend live optreden</li>
-                <li>Een trouwfeest uit de duizend</li>
-                <li>...</li>
-            </ul>
+        <section class="Info">
+            <img src="images/voorbeeld_moment.jpg" alt="" class="voorbeeld">
+            <div>
+                <h4>MOMENTEN</h4>
+                <ul>
+                    <li>Een live festival met steengoeie optredens</li>
+                    <li>Een spetterende fuif</li>
+                    <li>Een aansprekende productlancering</li>
+                    <li>Een achttiende verjaardag om nooit meer te vergeten</li>
+                    <li>De opening van uw eerste (of honderdste) winkel</li>
+                    <li>Een spetterend live optreden</li>
+                    <li>Een trouwfeest uit de duizend</li>
+                    <li>...</li>
+                </ul>
+            </div>
         </section>
-        <section>
+        <section id="transformaties">
             <h3>Enkele transformaties</h3>
-            <div>
-                <img src="images/transformatie1before.jpg" alt="">
-                <img src="images/transformatie1after.jpg" alt="">
+            <div id="cf">
+                <img src="images/transformatie1before.jpg" alt="" class="fotoleft">
+                <img src="images/transformatie1after.jpg" alt="" class="fotoright">
             </div>
-            <div>
-                <img src="images/transformatie3before.JPG" alt="">
-                <img src="images/transformatie3after.jpg" alt="">
+            <div id="cf">
+                <img src="images/transformatie3before.JPG" alt="" class="fotoleft">
+                <img src="images/transformatie3after.jpg" alt="" class="fotoright">
             </div>
-            <div>
-                <img src="images/transformatie2before.JPG" alt="">
-                <img src="images/transformatie2after.JPG" alt="">
+            <div id="cf">
+                <img src="images/transformatie2before.JPG" alt="" class="fotoleft">
+                <img src="images/transformatie2after.JPG" alt="" class="fotoright">
+            </div>
+            <div id="cf">
+                <img src="images/transformatie4before.jpg" alt="" class="fotoleft">
+                <img src="images/transformatie4after.jpg" alt="" class="fotoright">
             </div>
         </section>
     </main>
@@ -96,7 +108,6 @@
         <section>
             <h5>ONZE DIENSTEN</h5>
             <ul>
-                <li>Verhuur podium, live PA, discobar, dj, techniekers, video, trussing, bedrijfsevents</li>
                 <li>Verhuur lounge sets</li>
                 <li>Decoratieverhuur</li>
                 <li>Drukwerk</li>

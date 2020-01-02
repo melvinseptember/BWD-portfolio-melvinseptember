@@ -27,7 +27,8 @@ main .column + .column {
  =============================================== */
  #banner{
 	background-color:#62717d;
-	padding: 100px 0rem;
+	padding-top: 13rem;
+	padding-bottom: 3rem;;
 
 	background-image: url(../img/mutwhero.png);
 	background-size: auto;

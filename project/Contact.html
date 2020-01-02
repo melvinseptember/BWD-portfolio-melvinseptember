@@ -3,112 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <script src="https://kit.fontawesome.com/34ccc2f274.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/start.css">
+    <link rel="stylesheet" href="css/Contact.css">
+    <link rel="stylesheet" href="css/footer.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact || Double MP</title>
 </head>
-<body>
     <header>
-        <a href="Home.html"><img src="images/logo_doublemp.png" alt=""></a>
-        <nav>
-            <a href="Home.html">Home</a>
-            <a href="Thema's.html">Thema's</a>
-            <a href="OverOns.html">Over ons</a>
-            <a href="Contact.html">Contact</a>
-            <a href="Nieuws.html">Nieuws</a>
-        </nav>
-        <a href="https://www.facebook.com/doublempevents/"><i class="fab fa-facebook-f"></i></a>
+        <div>
+            <a href="Home.html" class="logo" ><img src="images/logo_doublemp.png" alt="" id="logo"></a>
+            <nav>
+                <a href="Home.html">Home</a>
+                <a href="Thema's.html">Thema's</a>
+                <a href="OverOns.html">Over ons</a>
+                <a href="Contact.html">Contact</a>
+                <a href="Nieuws.html">Nieuws</a>
+                <a href="https://www.facebook.com/doublempevents/" id="facebook"><i class="fab fa-facebook-f"></i></a>
+            </nav>
+        </div>
         <section>
                 <h2> Contacteer Double MP</h2>
-                <img src="images/header_Contact.jpg" alt="">
         </section>
     </header>
     <main>
-        <section>
-            <h3>Kantoor</h3>
-            <address>
-                BVBA Double MP <br>
-                Kouterlaan 2-1 <br>
-                1745 Opwijk <br>
-                BTW BE 872-497-578 <br>
-                Belfius BE27 0689 0137 7173 <br>
-                ING BE68 3930 2276 0434 <br>
-            </address>
-        </section>
-        <section>
-            <h3>Magazijn en Showroom</h3>
-            <address>
-                Broekstraat 142 <br>
-                9255 Buggenhout-Opstal <br>
-                Te bezichtigen na afspraak
-            </address>
-        </section>
-        <section>
-            <h3>Contact</h3>
-            <address>
-                Telefoon 052/55.05.72 <br> 
-                GSM Tom 0476/40.53.42 <br>
-                GSM Marijke 0472/73.64.96 <br>
-                info@doublemp.be
-            </address>
-        </section>
-        <section>
-            <h3>Uw interesse</h3>
-            <p>In welke diensten hebt u interesse?</p>
-            <form action="">
-                <p>
-                    <label><input type="checkbox" value="Techniek" id="">Techniek</label>
-                    <label><input type="checkbox" value="Lounge" id="">Lounge</label>
-                    <label><input type="checkbox" value="Decoratie" id="">Decoratie</label>
-                    <label><input type="checkbox" value="Drukwerk" id="">Drukwerk</label>
-                    <label><input type="checkbox" value="Website" id="">Website</label>
-                    <label><input type="checkbox" value="Zaalverhuur" id="">Zaalverhuur</label>
-                    <label><input type="checkbox" value="Artiestboeken" id="">Artiest boeken</label>
-                    <label><input type="checkbox" value="EventOrganisatie" id="">Event Organisatie</label>
-                    <label><input type="checkbox" value="Catering" id="">Catering</label>
-                </p>
-            </form>
-            <p>Beschrijf kort uw evenement.</p>
-            <form>
-                <label><textarea name="" id="text" cols="40" rows="10"></textarea></label>
-            </form>
-        </section>
-        <section>
-            <H3>Uw gegevens</H3>
-            <form>
-                <p>Naam *</p>
-                <p>
-                    <label><input type="text" placeholder="Voornaam" required></label>
-                    <label><input type="text" placeholder="Achternaam" required></label>
-                </p>
-                <p>Bedrijf</p>
-                <p>
-                    <label><input type="text"></label>
-                </p>
-                <p>Adres</p>
-                <p>
-                    <label><input type="text" placeholder="Straat + nr"></label>
-                </p>
-                <p>
-                    <label><input type="text" placeholder="Plaats"></label>
-                    <label><input type="text" placeholder="Postcode"></label>
-                </p>
-                <p>
-                    <label><input type="text" placeholder="Land"></label>
-                </p>
-                <p>Telefoon *</p>
-                <p>
-                    <label><input type="tel" required></label>
-                </p>
-                <p>E-mail *</p>
-                <p>
-                    <label><input type="email" required></label>
-                </p>
-                <p>
-                    <label><input type="submit" value="Verzenden"></label>
-                </p>
-            </form>
-        </section>
+        <div id="gegevens">
+            <section class="adressen">
+                <h3>Kantoor</h3>
+                <address  class="adres">
+                    BVBA Double MP <br>
+                    Kouterlaan 2-1 <br>
+                    1745 Opwijk <br>
+                    BTW BE 872-497-578 <br>
+                    Belfius BE27 0689 0137 7173 <br>
+                    ING BE68 3930 2276 0434 <br>
+                </address>
+            </section>
+            <section class="adressen">
+                <h3>Magazijn en Showroom</h3>
+                <address class="adres">
+                    Broekstraat 142 <br>
+                    9255 Buggenhout-Opstal <br>
+                    Te bezichtigen na afspraak
+                </address>
+            </section>
+            <section class="adressen">
+                <h3>Contact</h3>
+                <address class="adres">
+                    Telefoon 052/55.05.72 <br> 
+                    GSM Tom 0476/40.53.42 <br>
+                    GSM Marijke 0472/73.64.96 <br>
+                    info@doublemp.be
+                </address>
+            </section>
+        </div>
+        <div id="formulier">
+            <section>
+                <h3>Uw interesse</h3>
+                <p class="title">In welke diensten hebt u interesse?</p>
+                <form>
+                    <p id="choose">
+                        <label id="cb"><input type="checkbox" value="Techniek" id="">Techniek</label>
+                        <label id="cb"><input type="checkbox" value="Lounge" id="">Lounge</label>
+                        <label id="cb"><input type="checkbox" value="Decoratie" id="">Decoratie</label>
+                        <label id="cb"><input type="checkbox" value="Drukwerk" id="">Drukwerk</label >
+                        <label id="cb"><input type="checkbox" value="Website" id="">Website</label>
+                        <label id="cb"><input type="checkbox" value="Zaalverhuur" id="">Zaalverhuur</label>
+                        <label id="cb"><input type="checkbox" value="Artiestboeken" id="">Artiest boeken</label>
+                        <label id="cb"><input type="checkbox" value="EventOrganisatie" id="">Event Organisatie</label>
+                        <label id="cb"><input type="checkbox" value="Catering" id="">Catering</label>
+                    </p>
+                </form>
+                <p  class="title">Beschrijf kort uw evenement.</p>
+                <form>
+                    <label><textarea name="" id="text" cols="40" rows="10"></textarea></label>
+                </form>
+            </section>
+            <section>
+                <H3>Uw gegevens</H3>
+                <form>
+                    <p class="title">Naam *</p>
+                    <p>
+                        <label><input type="text" placeholder="Voornaam" required></label>
+                        <label><input type="text" placeholder="Achternaam" required></label>
+                    </p>
+                    <p class="title">Bedrijf</p>
+                    <p>
+                        <label><input type="text"></label>
+                    </p>
+                    <p class="title">Adres</p>
+                    <p>
+                        <label><input type="text" placeholder="Straat + nr"></label>
+                    </p>
+                    <p>
+                        <label><input type="text" placeholder="Plaats"></label>
+                        <label><input type="text" placeholder="Postcode"></label>
+                    </p>
+                    <p>
+                        <label><input type="text" placeholder="Land"></label>
+                    </p>
+                    <p class="title">Telefoon *</p>
+                    <p>
+                        <label><input type="tel" required></label>
+                    </p>
+                    <p class="title">E-mail *</p>
+                    <p>
+                        <label><input type="email" required></label>
+                    </p>
+                    <p>
+                        <label><input type="submit" value="Verzenden"></label>
+                    </p>
+                </form>
+            </section>
+        </div>
     </main>
     <footer>
         <section>
@@ -140,7 +147,6 @@
         <section>
             <h5>ONZE DIENSTEN</h5>
             <ul>
-                <li>Verhuur podium, live PA, discobar, dj, techniekers, video, trussing, bedrijfsevents</li>
                 <li>Verhuur lounge sets</li>
                 <li>Decoratieverhuur</li>
                 <li>Drukwerk</li>
